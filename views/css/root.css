@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Gdold;
+    src: url(/rubik/Gold.ttf);
+}
+
+/**/:root {
+    --blue : #56c3f2;
+    --lblu : #d9eef7;
+    --voil : #9d69e0;
+    --lvoi : #ad82dc;
+    --blck : #231f23;
+    --yell : #fcbb25;
+    --grey : #86909c;
+    --whgt : #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    /*background-color: var(--lblu);*/
+    height: 100%;
+}
+
+*{
+    font-family: Gdold;
+}
+
+.info {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

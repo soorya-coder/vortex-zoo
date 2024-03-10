@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Zoofy</title>
+    <link rel="icon" type="image/x-icon" href="/img/for.png">
+
+    <link rel="stylesheet" href="/views/css/root.css" />
+    <link rel="stylesheet" href="/views/css/style.css" />
+    <script src="/views/jquery-3.6.1.js"></script>
+    <script src="/views/js/editor.js"></script>
+    <script
+      src="https://kit.fontawesome.com/45d54642b2.js"
+      crossorigin="anonymous"></script>
+
+    <script
+      src="https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js"></script>
+
+    <style>
+      #back {
+        font-family: 'Inter', sans-serif;
+        background-color:#9e99ff;
+        background-image:
+          radial-gradient(at 22% 43%, hsla(277,78%,61%,1) 0px, transparent 50%),
+          radial-gradient(at 62% 65%, hsla(237,69%,72%,1) 0px, transparent 50%),
+          radial-gradient(at 35% 44%, hsla(39,94%,60%,1) 0px, transparent 50%),
+          radial-gradient(at 66% 49%, hsla(265,68%,71%,1) 0px, transparent 50%),
+          radial-gradient(at 43% 10%, hsla(204,66%,70%,1) 0px, transparent 50%),
+          radial-gradient(at 42% 68%, hsla(300,94%,71%,1) 0px, transparent 50%),
+          radial-gradient(at 33% 96%, hsla(244,65%,62%,1) 0px, transparent 50%);
+      }
+      h1 {
+        color: white;
+      }
+      *{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <div id="back">
+
+      <div class="image-container relative">
+        <img src="/img/for.png" alt="Your Image Alt Text" class="w-full" style="opacity: 0.8; background-color: white;" />
+        <div class="text-overlay absolute left-0 top-0 p-4 pt-9">
+
+          <h1
+            class="text-5xl font-semibold text-center mb-8 text-indigo-950 ">Welcome
+            to Zoofy</h1>
+
+          <div class="h-96">
+            .
+          </div>
+          <div
+            class="text-lg font-light text-center mb-8 text-gray-700 mx-10 ">Discover
+            the majesty of the lion, the gentle grace of the giraffe, and the
+            playful antics of the chimpanzee. From the depths of the jungle to
+            the
+            vast expanses of the savanna, each exhibit offers a glimpse into the
+            beauty and diversity of our planet's rich ecosystem. <br><br>
+
+            Our interactive platform provides an immersive experience, allowing
+            you to learn about each animal through engaging multimedia content,
+            including videos, photos, and informative articles. Whether you're a
+            wildlife enthusiast, a student eager to learn, or a family looking
+            for educational entertainment, there's something for everyone at our
+            virtual zoo.<br><br>
+
+            Join us as we celebrate the wonders of the natural world and inspire
+            a deeper appreciation for the incredible creatures we share our
+            planet with. Start your adventure today and unlock the magic of the
+            animal kingdom with our virtual zoo experience.</div>
+
+        </div>
+      </div>
+
+      <div class="container mx-auto py-8">
+
+        <h1
+        class="text-5xl font-semibold text-center mb-8 text-indigo-950 ">"Our Animals"</h1>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div
+            class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+            <img src="/img/lion.jpg" alt="Lion"
+              class="w-full h-48 object-cover rounded-lg mb-4 fade-in">
+            <h2 class="text-xl font-semibold mb-2">Lion</h2>
+            <p class="text-gray-700">The lion is a species in the family Felidae
+              and a member of the genus Panthera. It is most recognisable for
+              its
+              muscular, deep-chested body, short, rounded head, round ears, and
+              a
+              hairy tuft at the end of its tail.</p>
+          </div>
+          <div
+            class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+            <img src="/img/elephant.jpg" alt="Elephant"
+              class="w-full h-48 object-cover rounded-lg mb-4 fade-in">
+            <h2 class="text-xl font-semibold mb-2">Elephant</h2>
+            <p class="text-gray-700">Elephants are the largest existing land
+              animals. They are mammals of the family Elephantidae and the
+              largest
+              existing land animals.</p>
+          </div>
+          <div
+            class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+            <img src="/img/girrafe.jpg" alt="Giraffe"
+              class="w-full h-48 object-cover rounded-lg mb-4 fade-in">
+            <h2 class="text-xl font-semibold mb-2">Giraffe</h2>
+            <p class="text-gray-700">The giraffe is an African artiodactyl
+              mammal,
+              the tallest living terrestrial animal, and the largest ruminant.
+              It
+              is traditionally considered to be one species, Giraffa
+              camelopardalis, with nine subspecies.</p>
+          </div>
+          <div
+            class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+            <img src="/img/zebra.jpg" alt="Lion"
+              class="w-full h-48 object-cover rounded-lg mb-4 fade-in">
+            <h2 class="text-xl font-semibold mb-2">zebra</h2>
+            <p class="text-gray-700">Zebras are herbivorous mammals known for
+              their black and white striped coats. They belong to the horse
+              family
+              and are native to Africa. Zebras are social animals that usually
+              live in groups called herds. Their stripes serve as camouflage,
+              making it difficult for predators like lions and hyenas to single
+              out individuals</p>
+          </div>
+          <div
+            class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+            <img src="/img/panda.jpg" alt="Elephant"
+              class="w-full h-48 object-cover rounded-lg mb-4 fade-in">
+            <h2 class="text-xl font-semibold mb-2">Panda</h2>
+            <p class="text-gray-700"> Pandas are large, black and white bears
+              native to central China. They are known for their distinctive
+              black
+              patches around their eyes, ears, and across their bodies. Pandas
+              primarily feed on bamboo and are classified as carnivores,
+              although
+              their diet is predominantly herbivorous. They are solitary animals
+              and are classified as endangered due to habitat loss and low
+              reproductive rates </p>
+          </div>
+          <div
+            class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+            <img src="/img/snake.jpg" alt="Giraffe"
+              class="w-full h-48 object-cover rounded-lg mb-4 fade-in">
+            <h2 class="text-xl font-semibold mb-2">Snake</h2>
+            <p class="text-gray-700">Snakes are elongated, legless reptiles that
+              are found in a variety of habitats worldwide, except Antarctica.
+              They are carnivorous and primarily use their highly flexible
+              bodies
+              to hunt and capture prey. Snakes come in various sizes and colors,
+              and some species are venomous, while others are not.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="pb-10 pt-10 my-9">
+        <div
+          class="mt-5 flex justify-center text-4xl font-bold text-[#050C26]">“Attractive
+          and Varied”</div>
+        <div class="mt-1 flex justify-center  text-[#8A8A8A]">Make your zoo
+          visit
+          even more special by booking an exclusive encounter with us.</div>
+
+        <div class="px-10 py-6">
+
+          <div class="mx-1 flex flex-row mt-7 justify-center pb-3">
+            <div
+              class="mx-5 flex flex-col rounded-lg bg-white shadow-md  pb-3 hover:shadow-xl transform hover:scale-105 transition duration-300">
+              <div
+                class="mx-3 my-3 font-semibold flex justify-center text-gray-400 text-xl ">Regular</div>
+
+              <div class="mx-8 flex flex-row my-5">
+                <img
+                  class="rounded-full mt-5 w-14 h-14 justify-center align-middle flex"
+                  src="/img/tick.png" alt="img">
+                <div class="mx-3 flex flex-col my-5">
+                  <div class="font-bold text-xl">
+                    $20/PAX
+                  </div>
+                  <div class="text-[#8E8E8E] text-base">
+                    9 Am to 8 PM
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="mx-5 flex flex-col bg-white rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+              <div
+                class="mx-3 my-3 font-semibold flex justify-center text-gray-400 text-xl">Combo</div>
+
+              <div class="mx-8 flex flex-row my-5">
+                <img
+                  class="rounded-full mt-5 w-14 h-14 justify-center align-middle flex"
+                  src="/img/tick.png" alt="img">
+                <div class="mx-3 flex flex-col my-5">
+                  <div class="font-bold text-xl">
+                    $30/PAX
+                  </div>
+                  <div class="text-[#8E8E8E] text-base">
+                    8 Am to 10 PM
+                  </div>
+                </div>
+              </div>
+            </div><div
+              class="mx-5 flex flex-col  bg-white rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+              <div
+                class="mx-3 my-3 font-semibold flex justify-center text-gray-400 text-xl">Stay</div>
+
+              <div class="mx-8 flex flex-row my-5">
+                <img
+                  class="rounded-full mt-5 w-14 h-14 justify-center align-middle flex"
+                  src="/img/tick.png" alt="img">
+                <div class="mx-3 flex flex-col my-5">
+                  <div class="font-bold text-xl">
+                    $50/PAX
+                  </div>
+                  <div class="text-[#8E8E8E] text-base">
+                    9 Am to 8 PM
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="h-10">.</div>
+      <div class="flex px-7 justify-center">
+
+        <div
+          class=" mx-10 p-4 rounded-lg shadow-lg transition duration-300 m-8 h-full w-full bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100
+        ">
+          <img src="/img/girrafe.jpg" alt="Giraffe"
+            class="w-full h-auto object-cover rounded-lg mb-4 fade-in">
+          <h2 class="text-xl font-semibold mb-2">Giraffe</h2>
+          <p class="text-gray-700">The giraffe is an African artiodactyl mammal,
+            the tallest living terrestrial animal, and the largest ruminant. It
+            is
+            traditionally considered to be one species, Giraffa camelopardalis,
+            with nine subspecies.</p>
+        </div>
+
+      </div>
+      <div class="h-10">.</div>
+      <div class="flex px-7 justify-center">
+
+        <div
+          class=" mx-10 p-4 rounded-lg shadow-lg transition duration-300 m-8 h-full w-full bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100
+        ">
+          <img src="/img/elephant.jpg" alt="Giraffe"
+            class="w-full h-auto object-cover rounded-lg mb-4 fade-in">
+          <h2 class="text-xl font-semibold mb-2">Elephant</h2>
+          <p class="text-gray-700">Elephants are the largest existing land
+            animals. They are mammals of the family Elephantidae and the largest
+            existing land animals.</p>
+        </div>
+
+      </div>
+      <div class="h-10">.</div>
+      <div class="flex px-7 justify-center">
+
+        <div
+          class=" mx-10 p-4 rounded-lg shadow-lg transition duration-300 m-8 h-full w-full bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100
+        ">
+          <img src="/img/lion.jpg" alt="lion"
+            class="w-full h-auto object-cover rounded-lg mb-4 fade-in">
+          <h2 class="text-xl font-semibold mb-2">Lion</h2>
+          <p class="text-gray-700">The lion is a species in the family Felidae
+            and a member of the genus Panthera. It is most recognisable for its
+            muscular, deep-chested body, short, rounded head, round ears, and a
+            hairy tuft at the end of its tail.</p>
+        </div>
+
+      </div>
+      <div class="h-10">.</div>
+      <div class="flex px-7 justify-center">
+
+        <div
+          class=" mx-10 p-4 rounded-lg shadow-lg transition duration-300 m-8 h-full w-full bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100
+        ">
+          <img src="/img/zebra.jpg" alt="zebra"
+            class="w-full h-auto object-cover rounded-lg mb-4 fade-in">
+          <h2 class="text-xl font-semibold mb-2">zebra</h2>
+          <p class="text-gray-700">Zebras are herbivorous mammals known for
+            their black and white striped coats. They belong to the horse family
+            and are native to Africa. Zebras are social animals that usually
+            live in groups called herds. Their stripes serve as camouflage,
+            making it difficult for predators like lions and hyenas to single
+            out individuals</p>
+        </div>
+
+      </div>
+      <div class="h-10">.</div>
+      <div class="flex px-7 justify-center">
+
+        <div
+          class=" mx-10 p-4 rounded-lg shadow-lg transition duration-300 m-8 h-full w-full bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100
+        ">
+          <img src="/img/panda.jpg" alt="panda"
+            class="w-full h-auto object-cover rounded-lg mb-4 fade-in">
+          <h2 class="text-xl font-semibold mb-2">panda</h2>
+          <p class="text-gray-700">Pandas are large, black and white bears
+            native to central China. They are known for their distinctive black
+            patches around their eyes, ears, and across their bodies. Pandas
+            primarily feed on bamboo and are classified as carnivores, although
+            their diet is predominantly herbivorous. They are solitary animals
+            and are classified as endangered due to habitat loss and low
+            reproductive rates</p>
+        </div>
+
+      </div>
+      <div class="h-10">.</div>
+      <div class="flex px-7 justify-center">
+
+        <div
+          class=" mx-10 p-4 rounded-lg shadow-lg transition duration-300 m-8 h-full w-full bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100
+        ">
+          <img src="/img/snake.jpg" alt="snake"
+            class="w-full h-auto object-cover rounded-lg mb-4 fade-in">
+          <h2 class="text-xl font-semibold mb-2">Snake</h2>
+          <p class="text-gray-700">Snakes are elongated, legless reptiles that
+            are found in a variety of habitats worldwide, except Antarctica.
+            They are carnivorous and primarily use their highly flexible bodies
+            to hunt and capture prey. Snakes come in various sizes and colors,
+            and some species are venomous, while others are not.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+
+</html>

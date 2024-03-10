@@ -1,0 +1,127 @@
+
+#header {
+    display: inline-flex;
+    width: 100%;
+}
+
+#header-lead {
+    border-radius: 10px;
+    justify-content: center;
+    margin: 10px;
+    color: var(--yell);
+    background-color: var(--lvoi);
+}
+
+#header-bar {
+    margin: 10px;
+    width: 75%;
+}
+
+#header-title{
+    background-color: var(--voil);
+    color: var(--whgt);
+    font-weight: bold;
+    font-size: 1.5em;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+}
+
+#header-path {
+    background-color: var(--grey);
+    color: var(--yell);
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 0 5px 0px;
+    margin-top: 5px;
+    opacity: 0.8;
+}
+
+#header-icons {
+    margin: 10px;
+    display: inline-flex;
+}
+
+#header-add {
+    border-radius: 10px;
+    justify-content: center;
+    margin: 10px;
+    color: var(--yell);
+    background-color: var(--lvoi);
+    
+}
+
+#header-upload {
+    border-radius: 10px;
+    justify-content: center;
+    margin: 10px;
+    color: var(--yell);
+    background-color: var(--lvoi);
+}
+
+.icon {
+    object-fit: contain;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+    display: block;
+    justify-content: center;
+    border-radius: 15px;
+    justify-content: center;
+    box-shadow: 5px 5px 20px #f9f9f9;
+    padding: 5px;
+    display: flex;
+}
+
+.icon:hover {
+    box-shadow: 10px 10px 20px var(--grey);
+}
+
+#container {
+    background-color: var(--yell);
+    color: var(--grey);
+    font-weight: bold;
+    font-size: 1em;
+    width: 80%;
+    height: 10%;
+    margin: 10px auto;
+    padding: 20px 20px;
+    border-radius: 10px;
+    display: flex;
+}
+
+#icon {
+    width: 50px;
+    height: 50px;
+    display: inline;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#title {
+    position: relative;
+    display: inline-flex;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 65%;
+}
+
+#icon-edit{
+    display: inline-flex;
+    background-color: var(--whgt)
+}
+
+#icon-download {
+    display: inline-flex;
+    background-color: var(--whgt);
+    margin: 10px;
+}
+
+#icons {
+    margin: 10px;
+    display: inline-block;
+}
